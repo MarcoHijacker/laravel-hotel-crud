@@ -1,0 +1,43 @@
+// CSS Laravel Hotel CRUD
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea;
+  color: darkblue;
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  font-family: 'Exo 2', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  h2 {
+    margin: 10px 0;
+  }
+}
+
+main {
+  margin: auto 0;
+  ul {
+    list-style: none;
+    margin: 20px 0;
+    li {
+      margin: 10px 0;
+    }
+  }
+  form {
+    button {
+      padding: 10px;
+      font-weight: bolder;
+      background-color: orange;
+      border: 1px white solid;
+    }
+  }
+}
